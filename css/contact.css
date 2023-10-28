@@ -1,0 +1,205 @@
+/* start global rules */
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  margin: 0;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.clear {
+  clear: both;
+}
+h2,
+h1,
+h3,
+h5,
+h4 {
+  font-weight: 400;
+}
+/* end global rules */
+/* start header*/
+.header {
+  background-color: white;
+}
+.header .container .image {
+  display: inline-block;
+  width: 45%;
+  vertical-align: middle;
+}
+.header .container .image img {
+  width: 30%;
+  display: inline-block;
+}
+.header .container .nav {
+  width: 48%;
+  display: inline-block;
+  text-align: center;
+}
+.header .nav ul li {
+  display: inline-block;
+  width: 15%;
+  vertical-align: middle;
+  margin-left: 1%;
+}
+.container .nav ul li a {
+  display: block;
+  padding: 10px 10px;
+  color: #b5b5b5;
+}
+.container .nav ul li a:hover {
+  color: black;
+}
+
+/* end header  */
+/* start home */
+.home {
+  background-image: url(../imgaes/drew-coffman-1872.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.home .container h1 {
+  font-size: 56px;
+
+  margin-top: 0px;
+}
+/* end home */
+/* start contact */
+.contact {
+  padding-top: 80px;
+  padding-bottom: 45px;
+}
+.contact .container .form {
+  float: left;
+  width: 60%;
+}
+.contact .container h3 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+.contact .container .content {
+  float: left;
+  width: 35%;
+  margin-left: 2%;
+}
+.contact .form .input1 .name {
+  width: 42%;
+  margin-right: 0.5%;
+}
+.contact .form .input1 .email {
+  width: 44%;
+}
+.contact .form .input2 input,
+.contact .form .input3 textarea {
+  width: 90%;
+}
+.contact .form input,
+.contact .form textarea {
+  padding: 12px 12px;
+  border: 1px solid #e6e6e6;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.contact .form input::placeholder,
+.contact .form textarea::placeholder {
+  color: #a9a8a8;
+}
+.contact .form input:focus,
+.contact .form textarea:focus {
+  border-color: #8e7754;
+  outline: none;
+}
+.contact .form button {
+  background-color: #8e7754;
+  color: white;
+  padding: 11px 20px;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 0;
+  font-size: 17px;
+  text-transform: capitalize;
+}
+.contact .form button:hover {
+  background-color: black;
+}
+.contact .content p {
+  font-size: 17px;
+  color: rgb(104, 104, 104);
+  line-height: 1.86em;
+}
+.contact .content ul i {
+  color: #8e7754;
+  font-size: 25px;
+}
+.contact .content ul p {
+  display: inline-block;
+  margin-left: 10px;
+}
+/* end contact */
+/* start footer */
+.footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #403d38;
+}
+.footer .box {
+  float: left;
+  width: 23%;
+  padding: 10px;
+}
+.footer h2 {
+  color: white;
+  font-size: 18px;
+}
+.footer .p2 {
+  color: #969696;
+  line-height: 1.86em;
+}
+.footer ul {
+  padding: 0;
+}
+.footer ul p {
+  margin: 0px 10px 10px;
+  display: inline-block;
+  color: #969696;
+  font-size: 16px;
+  padding: 10px;
+}
+.footer i {
+  color: #969696;
+}
+.footer ul li {
+  border-bottom: 1px solid rgb(255, 255, 255, 0.05);
+}
+footer {
+  background-color: #353330;
+  color: #777;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+footer .image img {
+  width: 30%;
+}
+footer .content a {
+  color: #8c8a86;
+  margin-right: 20px;
+  margin-top: 15px;
+  transition: 0.3s;
+}
+footer .content a:hover {
+  color: white;
+  font-size: 25px;
+}
+
+/* end footer */

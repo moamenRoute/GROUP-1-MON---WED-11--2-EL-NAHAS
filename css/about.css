@@ -1,0 +1,228 @@
+/* start global rules */
+ul {
+  list-style-type: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+body {
+  margin: 0;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.clear {
+  clear: both;
+}
+h2,
+h1,
+h3,
+h5,
+h4 {
+  font-weight: 400;
+}
+/* end global rules */
+/* start header*/
+.header {
+  background-color: white;
+}
+.header .container .image {
+  display: inline-block;
+  width: 45%;
+  vertical-align: middle;
+}
+.header .container .image img {
+  width: 30%;
+}
+.header .container .nav {
+  width: 48%;
+  display: inline-block;
+  text-align: center;
+}
+.header .nav ul li {
+  display: inline-block;
+  width: 15%;
+  vertical-align: middle;
+  margin-left: 1%;
+}
+.container .nav ul li a {
+  display: block;
+  padding: 10px 10px;
+  color: #b5b5b5;
+}
+.container .nav ul li a:hover {
+  color: black;
+}
+/* end header  */
+/* start home */
+.home {
+  background-image: url(../imgaes/drew-coffman-1872.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  color: white;
+  text-align: center;
+}
+h3 {
+  font-size: 56px;
+  padding: 50px 0 0 0;
+  margin-top: 0px;
+}
+p {
+  font-size: 18px;
+  margin-top: 20px;
+  padding-bottom: 50px;
+}
+/* end home */
+/* start our story */
+.story {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.story .image {
+  width: 45%;
+  float: left;
+}
+.story .image img {
+  width: 80%;
+}
+.story .content {
+  float: right;
+  width: 49%;
+  padding-top: 50px;
+}
+.story .content h2 {
+  font-size: 32px;
+}
+.story .content p {
+  font-size: 18px;
+  color: #606060;
+  line-height: 1.86em;
+}
+/* end our story */
+/* start artical */
+.artical {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #f8f8f8;
+}
+.artical .content {
+  text-align: center;
+}
+.artical .box {
+  float: left;
+  width: 30%;
+  margin-left: 1.5%;
+}
+.artical .content h2 {
+  font-size: 30px;
+}
+.artical .content i {
+  font-size: 40px;
+  color: #8e7754;
+}
+.artical .box p {
+  font-size: 15px;
+  line-height: 1.86em;
+  font-weight: 400;
+}
+.artical .box h5 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.artical p {
+  color: #888;
+  margin-top: 15px;
+}
+/* end artical */
+/* start customer */
+.customer {
+  text-align: center;
+  background-color: #8e7754;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.customer .box {
+  width: 23%;
+  margin-left: 1%;
+  float: left;
+}
+.customer .box i,
+.customer .box span {
+  display: block;
+}
+.customer .box i {
+  font-size: 34px;
+  line-height: 36px;
+  margin-bottom: 30px;
+}
+.customer .box span {
+  margin-bottom: 20px;
+  font-size: 52px;
+}
+.customer .box p {
+  font-size: 20px;
+}
+/* end customer */
+/* start footer */
+.footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #403d38;
+}
+.footer .box {
+  float: left;
+  width: 23%;
+  padding: 10px;
+}
+.footer h2 {
+  color: white;
+  font-size: 18px;
+}
+.footer .p2 {
+  color: #969696;
+  line-height: 1.86em;
+}
+.footer ul {
+  padding: 0;
+}
+.footer ul p {
+  margin: 0px 10px 10px;
+  display: inline-block;
+  color: #969696;
+  font-size: 16px;
+  padding: 10px;
+}
+.footer i {
+  color: #969696;
+}
+.footer ul li {
+  border-bottom: 1px solid rgb(255, 255, 255, 0.05);
+}
+footer {
+  background-color: #353330;
+  color: #777;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+footer .image img {
+  width: 30%;
+}
+footer .content a {
+  color: #8c8a86;
+  margin-right: 20px;
+  margin-top: 15px;
+  transition: 0.3s;
+}
+footer .content a:hover {
+  color: white;
+  font-size: 25px;
+}
+
+/* end footer */

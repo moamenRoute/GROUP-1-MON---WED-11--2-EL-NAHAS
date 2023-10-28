@@ -1,0 +1,156 @@
+/* start global rules */
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  margin: 0;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.clear {
+  clear: both;
+}
+h2,
+h1,
+h3,
+h5,
+h4 {
+  font-weight: 400;
+}
+/* end global rules */
+/* start header*/
+.header {
+  background-color: white;
+}
+.header .container .image {
+  display: inline-block;
+  width: 45%;
+  vertical-align: middle;
+}
+.header .container .image img {
+  width: 30%;
+}
+.header .container .nav {
+  width: 48%;
+  display: inline-block;
+  text-align: center;
+}
+.header .nav ul li {
+  display: inline-block;
+  width: 15%;
+  vertical-align: middle;
+  margin-left: 1%;
+}
+.container .nav ul li a {
+  display: block;
+  padding: 10px 10px;
+  color: #b5b5b5;
+}
+.container .nav ul li a:hover {
+  color: black;
+}
+/* end header  */
+/* start home */
+.home {
+  background-image: url(../imgaes/drew-coffman-1872.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+}
+h3 {
+  font-size: 56px;
+  padding: 50px 0px;
+  margin-top: 0px;
+}
+/* start offer */
+.offer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.offer .box {
+  float: left;
+  width: 31%;
+  margin-left: 1%;
+}
+.offer .box span {
+  float: right;
+  font-size: 18px;
+  color: #888;
+}
+.offer .box h5 {
+  border-bottom: 1px solid #efefef;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.offer .box p {
+  color: #686868;
+  line-height: 1.86em;
+  font-size: 17px;
+}
+
+/* end offer */
+/* start footer */
+.footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #403d38;
+}
+.footer .box {
+  float: left;
+  width: 23%;
+  padding: 10px;
+}
+.footer h2 {
+  color: white;
+  font-size: 18px;
+}
+.footer .p2 {
+  color: #969696;
+  line-height: 1.86em;
+}
+.footer ul {
+  padding: 0;
+}
+.footer ul p {
+  margin: 0px 10px 10px;
+  display: inline-block;
+  color: #969696;
+  font-size: 16px;
+  padding: 10px;
+}
+.footer i {
+  color: #969696;
+}
+.footer ul li {
+  border-bottom: 1px solid rgb(255, 255, 255, 0.05);
+}
+footer {
+  background-color: #353330;
+  color: #777;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+footer .image img {
+  width: 30%;
+}
+footer .content a {
+  color: #8c8a86;
+  margin-right: 20px;
+  margin-top: 15px;
+  transition: 0.3s;
+}
+footer .content a:hover {
+  color: white;
+  font-size: 25px;
+}
+
+/* end footer */
